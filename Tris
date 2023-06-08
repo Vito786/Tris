@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Gioco Tris</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <h1 id="title">Gioco Tris</h1>
+  <p id="description">Benvenuti! Questo è il gioco del Tris.</p>
+  
+  <div class="grid">
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+  </div>
+  
+  <p id="status"></p>
+  
+  <button id="resetButton">Reset</button>
+  
+  <script src="script.js"></script>
+</body>
+</html>
